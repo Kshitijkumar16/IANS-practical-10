@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&display=swap');
+
+body {
+     margin: 0px;
+     background-color: #FFFFFF;
+     padding: 0px 0px 0px 0px;
+}
+
+header {
+     background-color: #c67335;
+     color: #FFFFFF;
+     text-align: center;
+     padding: 20px 50px 5px 0px;
+     text-align: center;
+     position: sticky;
+     top: 0;
+}
+
+.headname {
+     text-decoration: none;
+     color: #FFFFFF;
+     font-size: 300%;
+     font-family: 'Monoton';
+     font-weight: lighter;
+     text-align: center;
+     padding: 20px 0px 40px 40px;
+}
+
+.headname:hover {
+     color: #000000;
+}
+
+.nav1 {
+     background-color: #c67335;
+     text-align: center;
+     padding: 5px 0px 10px 0px;
+}
+
+.navlink1 {
+     text-decoration: none;
+     color: #FFFFFF;
+     font-size: 25px;
+     font-family: monospace;
+     font-weight: bold;
+     font-variant: small-caps;
+     padding: 0px 0px;
+     margin: auto 120px;
+     text-align: center;
+}
+
+.navlink1:hover {
+     color: #000000;
+}
+
+main {
+     background-color: rgba(255, 228, 196, 0.319);
+     /*border-top: 0px;
+     border-bottom: 0px;
+     border-left: 2px;
+     border-right: 2px;
+     border-style: solid;
+     border-color: #000000;*/
+     margin: 0px 250px; 
+     padding: 20px 50px 0px 50px;
+     font-size: 20px;
+}
+
+p.aim {
+     border: 2px;
+     border-color: #FFFFFF;
+     border-style: double;
+     text-align: center;
+     padding: 50px;
+     font-size: 30px;
+}
+
+p.tex1{
+     font-size: larger;
+     list-style: square;
+     padding-top: 50px;
+}
+
+img.center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+p.tex2 {
+     padding: 50px 0px 0px 0px;
+          font-size: larger;
+               list-style: square;
+}
+
+p.tex3 {
+     padding: 20px 0px 60px 0px;
+          font-size: larger;
+               list-style: square;
+}
+
+p.sim1 {
+     font-family: monospace;
+     font-weight: bold;
+     font-variant: small-caps;
+     font-size: 30px;
+     text-align: center;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta lang="en">
+    <title>Virtual Lab - Vernam Cipher and Perfect Secrecy</title>
+    <link rel="stylesheet" href="main-style.css">
+    <link rel="shortcut icon" href="imag/icon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> <a class="headname" href="">vernam cipher</a> </header>
+    <nav class="nav1">
+        <hr />
+        <a class="navlink1" href="main.html">aim</a>
+        <a class="navlink1" href="theory.html">theory</a>
+        <a class="navlink1" href="procedure.html">procedure</a>
+        <a class="navlink1" href="simulation.html">simulation</a>
+        <a class="navlink1" href="about.html">about</a>
+    </nav>
+    <main class="main">
+        <!-- Page Content  -->
+        <div class="content">
+            <br>
+            <p class="aim"><b>THEORY</b></p>
+            <p class="tex4">
+                <br><li>Vernam proposed a bit-wise exclusive or of the message stream with a truely random zero-one stream
+                which was shared by sender and receipient.</li>
+                <br> <img src="imag/1.jpg" alt="" height="400" width="980" class="center">
+                <br>
+                <br><li>His cipher is unbreakable in a very strong sense.</li>
+                <br> <li>The intuition is that any message can be transformed into any cipher (of the same length) by a pad,
+                and all transformations are equally likely.</li>
+                <br>
+                <li>Given a two letter message, there is a pad which adds to the message to give OK, and another pad
+                which adds to the message to give NO.</li>
+                <br><li>Since either of these pads are equally likely, the message is equally likely to be OK or NO.</li>
+                <br>
+
+                <h2>Is Vernam cipher perfectly secure?</h2>
+                <ol>The Vernam cipher is considered to be perfectly secure as it reveals no fingerprint. This is because each character is
+                encrypted using its own key.</ol>
+                
+                <ol>Even if the key comprises only letters, there are 26 options for each character of the plain text message. This means
+                that the message 'HELLO' would have 26, to the power 5, (11,881,376) possible representations, including all possible
+                five-letter words.</ol>
+                
+                <ol>If the Vernam cipher uses a random bitstream for the key, rather than using alphabetic characters, the number of
+                possible representations rises to 256, to the power n, (where n is the number of characters in the plain text).</ol>
+                
+                <ol>However, there are some additional rules that need to be applied to achieve perfect security:
+                
+                <li>The characters in the key must be truly random.</li>
+                <li>The key must be used once, and only once.</li>
+                <li>There must be only two copies of the key (held by the sender and recipient) and the key must be secret to these parties</li>
+                <li>The key must be destroyed after use.</li></ol>
+                <ol>Most codebreakers exploit human weakness or laziness to crack ciphers. Key exchange is a significant problem when the
+                sender and receiver live in completely different places, such as on opposite sides of the world.</ol><br><br>
+            </p>
+        </div>
+</body>
+</html>
